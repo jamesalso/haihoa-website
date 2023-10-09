@@ -1,0 +1,26 @@
+stages:
+    - deploy
+
+deploy_prod:
+    image: keymetrics/pm2:latest-alpine
+    stage: deploy
+    environment:
+        name: production
+        url: https://vanchuyen.orderhanquoc.com
+    only:
+        - master
+    before_script:
+        - apk update && apk upgrade && apk add --no-cache git openssh bash
+        - mkdir -p ~/.ssh
+        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+        - chmod 700 ~/.ssh/id_rsa
+        - eval "$(ssh-agent -s)"
+        - ssh-add ~/.ssh/id_rsa
+        - ssh-keyscan -H 'gitlab.com' >> ~/.ssh/known_hosts
+        - echo "====== Testing SSH connection ======"
+        - ssh -o StrictHostKeyChecking=no -T "$SERVER_HOST"
+    script:
+        - echo "====== Setuping ======"
+        - pm2 deploy ecosystem.config.js production setup 2>&1 || true
+        - echo "====== Deploying ======"
+        - pm2 deploy ecosystem.config.js production
