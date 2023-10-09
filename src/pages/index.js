@@ -1,19 +1,27 @@
+import React, { useEffect, useState } from 'react';
+
 import Head from 'next/head';
 
 import Navigation from '@/components/Navigation';
-import Banner from '@/components/Banner';
 import Ingredient from '@/components/Ingredient';
 import Uses from '@/components/Uses';
 import UsingCollagen from '@/components/UsingCollagen';
 import Certification from '@/components/Certification';
 import Register from '@/components/Register';
 import Contact from '@/components/Contact';
+import SplashScreen from '@/components/SplashScreen';
 
 export default function Home() {
+    const [splashVisible, setSplashVisible] = useState(true);
+
+    const handleIntro = () => {
+        setSplashVisible(false);
+    };
+
     return (
         <>
             <Head>
-                <title>HAIHOA</title>
+                <title>Haihoa</title>
                 <meta
                     name="description"
                     content="Dự án nâng cao nhận thức về hiện tượng 'people pleaser'"
@@ -28,16 +36,19 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
-                <Navigation />
-                <Banner />
-                <Ingredient />
-                <Uses />
-                <UsingCollagen />
-                <Certification />
-                <Register />
-                <Contact />
-            </main>
+            {splashVisible ? (
+                <SplashScreen ended={handleIntro} />
+            ) : (
+                <main>
+                    <Navigation />
+                    <Ingredient />
+                    <Uses />
+                    <UsingCollagen />
+                    <Certification />
+                    <Register />
+                    <Contact />
+                </main>
+            )}
         </>
     );
 }

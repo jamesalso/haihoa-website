@@ -7,7 +7,7 @@ export default function Uses() {
             className="bg-gradient-to-l from-pink-50 to-pink-300"
             id="uses"
         >
-            <div className="mx-auto max-w-screen-xl md:px-4 py-6 md:py-0 md:px-8">
+            <div className="mx-auto max-w-screen-xl py-6 md:py-0 md:px-8">
                 <div className="mx-auto max-w-3xl">
                     <h2 className="text-3xl sm:text-4xl text-[#F45F97] font-semibold text-center md:pt-14 font-brandon">
                         Công Dụng

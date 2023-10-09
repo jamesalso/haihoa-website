@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-@import url('/fonts/font.css');
+@import url('../fonts/font.css');
 
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: SVN-Brice, 'Plus Jakarta Sans', sans-serif;
 }

@@ -8,7 +8,7 @@ export default function Ingredient() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-24 px-18">
                     <div>
                         <div className="lg:py-32">
-                            <h2 className="md:text-4xl md:text-left sm:text-center sm:text-4xl text-[#F45F97] font-semibold font-brandon">
+                            <h2 className="md:text-4xl md:text-left sm:text-center sm:text-4xl text-[#F45F97] font-semibold">
                                 Thành Phần
                             </h2>
                             <div className="sm:flex sm:justify-center sm:items-center md:inline-block">

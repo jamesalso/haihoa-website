@@ -22,7 +22,7 @@ export default function UsingCollagen() {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-8 mt-6">
-                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 sm:gap-y-4 flex flex-col items-center">
+                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 flex flex-col items-center">
                         <img
                             src="/images/usingCollagen/usingImage1.png"
                             alt=""
@@ -32,7 +32,7 @@ export default function UsingCollagen() {
                         </p>
                     </blockquote>
 
-                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 sm:gap-y-4 flex flex-col items-center">
+                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 flex flex-col items-center">
                         <img
                             src="/images/usingCollagen/usingImage2.png"
                             alt=""
@@ -42,7 +42,7 @@ export default function UsingCollagen() {
                         </p>
                     </blockquote>
 
-                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 sm:gap-y-4 flex flex-col items-center">
+                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 flex flex-col items-center">
                         <img
                             src="/images/usingCollagen/usingImage3.png"
                             alt=""
@@ -53,7 +53,7 @@ export default function UsingCollagen() {
                         </p>
                     </blockquote>
 
-                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 sm:gap-y-4 flex flex-col items-center">
+                    <blockquote className="sm:p-2 md:p-6 sm:gap-y-8 flex flex-col items-center">
                         <img
                             src="/images/usingCollagen/usingImage4.png"
                             alt=""

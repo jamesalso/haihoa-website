@@ -19,6 +19,7 @@
         "grommet-icons": "^4.10.0",
         "grommet-styles": "^0.2.0",
         "next": "13.3.0",
+        "next-videos": "1.4.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-toastify": "^9.1.2",

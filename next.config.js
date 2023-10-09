@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const withVideos = require('next-videos');
 
 const nextConfig = {
     webpack: (config) => {
@@ -30,4 +31,4 @@ const nextConfig = {
     reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+module.exports = withVideos(nextConfig);
