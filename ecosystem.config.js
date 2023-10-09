@@ -1,14 +1,14 @@
 module.exports = {
     apps: [
         {
-            name: 'soha-express',
+            name: 'haihoa',
             script: 'npm',
             args: 'start',
             env: {
                 NODE_ENV: 'development',
             },
             env_production: {
-                PORT: 3001,
+                PORT: 3002,
                 NODE_ENV: 'production',
             },
         },

@@ -13,10 +13,10 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>KOJA BEAUTY</title>
+                <title>HAIHOA</title>
                 <meta
                     name="description"
-                    content="Nước uống giúp sáng da, ngừa lão hoá"
+                    content="Dự án nâng cao nhận thức về hiện tượng 'people pleaser'"
                 />
                 <meta
                     name="viewport"
