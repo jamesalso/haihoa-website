@@ -15,19 +15,17 @@ export default function Navigation() {
     return (
         <nav className="bg-transparent fixed w-full">
             <div className="flex items-center justify-center">
-                <div>
-                    <img
-                        src="/images/navigation/haihoa-logo.png"
-                        className="w-[150px] cursor-pointer"
-                        alt=""
-                        onClick={() => {
-                            window.scrollTo({
-                                top: 0,
-                                behavior: 'smooth',
-                            });
-                        }}
-                    />
-                </div>
+                <img
+                    src="/images/navigation/haihoa-logo.png"
+                    className="w-[150px] cursor-pointer"
+                    alt=""
+                    onClick={() => {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth',
+                        });
+                    }}
+                />
             </div>
         </nav>
     );
