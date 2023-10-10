@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import IntroScreen from '@/assets/videos/hai-hoa-option-1.mp4';
+import IntroScreen from '@/assets/videos/4k-blue-background.mp4';
 
 export const SplashScreen = ({ ended }) => {
     return (
