@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import Navigation from '@/components/Navigation';
-import Ingredient from '@/components/Ingredient';
+import Banner from '@/components/Banner';
 import Uses from '@/components/Uses';
 import UsingCollagen from '@/components/UsingCollagen';
 import Certification from '@/components/Certification';
@@ -19,7 +19,7 @@ export default function Home() {
     };
 
     return (
-        <>
+        <div>
             <Head>
                 <title>Haihoa</title>
                 <meta
@@ -41,7 +41,7 @@ export default function Home() {
             ) : (
                 <main>
                     <Navigation />
-                    <Ingredient />
+                    <Banner />
                     <Uses />
                     <UsingCollagen />
                     <Certification />
@@ -49,6 +49,6 @@ export default function Home() {
                     <Contact />
                 </main>
             )}
-        </>
+        </div>
     );
 }
