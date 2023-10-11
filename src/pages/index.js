@@ -4,7 +4,8 @@ import Head from 'next/head';
 
 import Navigation from '@/components/Navigation';
 import Banner from '@/components/Banner';
-import Uses from '@/components/Uses';
+import Introduce from '@/components/Introduce';
+import About from '@/components/About';
 import UsingCollagen from '@/components/UsingCollagen';
 import Certification from '@/components/Certification';
 import Register from '@/components/Register';
@@ -42,7 +43,8 @@ export default function Home() {
                 <main>
                     <Navigation />
                     <Banner />
-                    <Uses />
+                    <Introduce />
+                    <About />
                     <UsingCollagen />
                     <Certification />
                     <Register />

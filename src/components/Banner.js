@@ -8,7 +8,7 @@ export default function Banner() {
             id="ingredient"
         >
             <div className="flex justify-center items-center h-[100vh] px-80">
-                <div className="text-center italic text-[35px] text-[#ffffff] font-[cormorant-garamond]">
+                <div className="text-center italic text-[35px] text-[#ffffff] font-[CormorantGaramond] animate-fade-up animate-duration-[1000ms] animate-delay-[1000ms]">
                     “ <span className="text-[#ffdd04]">haihoa</span> là một
                     chiến dịch truyền thông tăng nhận thức cho những người trẻ
                     về hiện tượng `

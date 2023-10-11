@@ -24,5 +24,5 @@ module.exports = {
             xl: '1280px',
         },
     },
-    plugins: [require('flowbite/plugin')],
+    plugins: [require('flowbite/plugin'), require('tailwindcss-animated')],
 };
