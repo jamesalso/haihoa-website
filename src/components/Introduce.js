@@ -4,10 +4,10 @@ import React from 'react';
 export default function Introduce() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat py-[90px]`}
             id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl px-4 py-12">
+            <div className="mx-auto max-w-screen-xl px-4">
                 <div className="grid grid-cols-2 items-center lg:gap-24 px-18">
                     <div>
                         <div className="text-[#3255a8] text-left text-[70px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">

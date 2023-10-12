@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'CormorantGaramond-Light';
+    src: url('./CormorantGaramond-Light.ttf');
+}
+
+@font-face {
     font-family: 'StingerFitTrial';
     src: url('./StingerFitTrial-Regular.ttf');
 }

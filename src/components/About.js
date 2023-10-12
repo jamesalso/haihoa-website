@@ -4,16 +4,16 @@ import React from 'react';
 export default function About() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat py-[220px]`}
             id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl px-4 py-12">
-                <div className="grid grid-cols-2 items-center lg:gap-24 px-18">
+            <div className="mx-auto max-w-screen-xl px-4">
+                <div className="grid grid-cols-2 justify-center items-center lg:gap-24 px-18">
                     <div>
                         <img
                             alt=""
-                            src="/images/introduce/be-haihoa-introduce.png"
-                            className="w-[477px] h-auto animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
+                            src="/images/about/Behaihoa.png"
+                            className="w-[477px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
                         />
                     </div>
 

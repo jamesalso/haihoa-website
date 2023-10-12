@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import Head from 'next/head';
 
+import SplashScreen from '@/components/SplashScreen';
 import Navigation from '@/components/Navigation';
 import Banner from '@/components/Banner';
 import Introduce from '@/components/Introduce';
 import About from '@/components/About';
-import UsingCollagen from '@/components/UsingCollagen';
-import Certification from '@/components/Certification';
-import Register from '@/components/Register';
+import Adviser from '@/components/Adviser';
+import Advisor from '@/components/Advisor';
+import Companion from '@/components/Companion';
 import Contact from '@/components/Contact';
-import SplashScreen from '@/components/SplashScreen';
 
 export default function Home() {
     const [splashVisible, setSplashVisible] = useState(true);
@@ -45,9 +45,9 @@ export default function Home() {
                     <Banner />
                     <Introduce />
                     <About />
-                    <UsingCollagen />
-                    <Certification />
-                    <Register />
+                    <Adviser />
+                    <Advisor />
+                    <Companion />
                     <Contact />
                 </main>
             )}
