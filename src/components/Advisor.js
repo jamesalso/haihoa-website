@@ -47,17 +47,22 @@ export default function Advisor() {
                                         Nghiên cứu sinh PhD Tâm lý học lâm sàng,
                                         Đại học Mississippi State (điểm quá
                                         trình GPA{' '}
-                                        <span className="font-style">4.0</span>)
+                                        <span className="font-[SVN-Brice]">
+                                            4.0
+                                        </span>
+                                        )
                                     </li>
                                     <li className="leading-[25px]">
                                         Thạc sĩ Khoa học Tâm lý, Đại học Công
                                         giáo Hoa Kỳ (GPA{' '}
-                                        <span className="font-style">3.95</span>
+                                        <span className="font-[SVN-Brice]">
+                                            3.95
+                                        </span>
                                         )
                                     </li>
                                     <li className="leading-[25px]">
                                         Sinh viên Xuất Sắc của năm{' '}
-                                        <span className="font-style">
+                                        <span className="font-[SVN-Brice]">
                                             (2019)
                                         </span>{' '}
                                         - Khoa Tâm lý học, Đại học Liberty
