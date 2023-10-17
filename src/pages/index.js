@@ -21,7 +21,7 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <>
             <Head>
                 <title>Haihoa</title>
                 <meta
@@ -53,6 +53,6 @@ export default function Home() {
                     <Contact />
                 </main>
             )}
-        </div>
+        </>
     );
 }
