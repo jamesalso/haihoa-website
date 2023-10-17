@@ -4,7 +4,7 @@ import IntroScreen from '@/assets/videos/4k-blue-background.mp4';
 
 export const SplashScreen = ({ ended }) => {
     return (
-        <div className="bg-[#33509E]">
+        <div className="bg-[#3A60B3]">
             <video
                 playsInline
                 muted
