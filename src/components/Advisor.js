@@ -4,42 +4,45 @@ import React from 'react';
 export default function Advisor() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat py-[100px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[60px]`}
             id="certificate"
         >
-            <div className="mx-auto max-w-screen-xl px-8 py-14 h-full">
-                <div className="grid grid-cols-3 gap-2 md:grid-cols-3 md:gap-8">
+            <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-6 lg:py-14">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-2 md:gap-8">
                     <div className="mt-16">
-                        <div className="text-[#3255a8] text-left text-[55px] leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] lg:leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
                             <span className="font-[StingerFitTrial-Bold]">
                                 Chị Nguyễn Hồng Trâm
                             </span>
                         </div>
-                        <div className="bg-[#ee5b9f] w-[320px] mt-4 p-3 rounded-3xl shadow-2xl">
-                            <span className="flex justify-center text-center font-[StingerFitTrial-Bold] text-[#ffffff] text-[20px]">
-                                Giảng viên, Nghiên cứu sinh PhD ngành Tâm lý học
-                            </span>
+                        <div className="flex sm:justify-center lg:justify-start sm:items-center">
+                            <div className="bg-[#ee5b9f] lg:w-[320px] sm:w-[260px] mt-4 p-3 rounded-3xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
+                                <span className="flex text-center font-[StingerFitTrial-Bold] text-[#ffffff] lg:text-[20px] sm:text-[17px]">
+                                    Giảng viên, Nghiên cứu sinh PhD ngành Tâm lý
+                                    học
+                                </span>
+                            </div>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="sm:mt-4 sm:flex sm:justify-center">
                         <img
                             src="/images/adviser/Tram_Dec.jpg"
                             alt=""
-                            className="border-radius-ellipse w-[400px] h-[550px]"
+                            className="border-radius-ellipse lg:w-[400px] lg:h-[550px] sm:h-[300px]"
                         />
                     </div>
 
-                    <div>
-                        <div className="text-[#3255a8] text-left text-[32px] leading-[55px] w-auto">
+                    <div className="sm:mt-5 lg:rounded-none sm:rounded-md lg:border-none sm:border-2 sm:border-black sm:bg-[#fff] lg:bg-inherit lg:p-0 sm:p-3 lg:shadow-none sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[32px] sm:text-[24px] leading-[55px] w-auto lg:border-none sm:border-b-2 sm:border-black">
                             <span className="font-[StingerFitTrial-Bold]">
                                 CỐ VẤN CHUYÊN MÔN!
                             </span>
                         </div>
                         <div className="text-[#3255a8] text-left leading-[55px]">
-                            <div className="text-[18px] font-[StingerFitTrial-Bold]">
+                            <div className="text-[20px] font-[StingerFitTrial-Bold]">
                                 Trình độ học vấn:
-                                <ul className="text-[16px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
                                     <li className="leading-[25px]">
                                         Nghiên cứu sinh PhD Tâm lý học lâm sàng,
                                         Đại học Mississippi State (điểm quá
@@ -68,9 +71,9 @@ export default function Advisor() {
                             </div>
                         </div>
                         <div className="text-[#3255a8] text-left leading-[55px]">
-                            <div className="text-[18px] font-[StingerFitTrial-Bold]">
+                            <div className="text-[20px] font-[StingerFitTrial-Bold]">
                                 Quá trình công tác:
-                                <ul className="text-[16px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
                                     <li className="leading-[25px]">
                                         Giảng viên ngành Tâm lý học, Đại học
                                         Mississippi.

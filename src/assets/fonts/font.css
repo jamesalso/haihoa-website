@@ -17,3 +17,13 @@
     font-family: 'StingerFitTrial-Bold';
     src: url('./StingerFitTrial-Bold.ttf');
 }
+
+@font-face {
+    font-family: 'SVN-Brice';
+    src: url('./SVN-Brice\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'SVN-Brice-SemiBold';
+    src: url('./SVN-Brice SemiBold.otf');
+}

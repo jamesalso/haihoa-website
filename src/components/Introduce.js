@@ -4,14 +4,14 @@ import React from 'react';
 export default function Introduce() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat py-[90px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[150px] sm:py-2`}
             id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl px-4">
-                <div className="grid grid-cols-2 items-center lg:gap-24 px-18">
+            <div className="mx-auto max-w-screen-xl lg:px-4 sm:px-6">
+                <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-24 px-18">
                     <div>
-                        <div className="text-[#3255a8] text-left text-[70px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
-                            <div className="font-[StingerFitTrial-Bold]">
+                        <div className="sm:mt-8 text-[#3255a8] lg:text-left sm:text-center lg:text-[70px] sm:text-[36px] lg:leading-[70px] sm:leading-[40px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
+                            <div className="font-[SVN-Brice-SemiBold]">
                                 HIỆN TƯỢNG
                             </div>
                             <div className="font-[StingerFitTrial]">
@@ -19,7 +19,7 @@ export default function Introduce() {
                             </div>
                         </div>
 
-                        <div className="mt-10 text-[18px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-10 text-[22px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             <span className="text-[#ee5b9f]">
                                 People pleaser
                             </span>{' '}
@@ -53,11 +53,11 @@ export default function Introduce() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="sm:flex sm:justify-center sm:items-center">
                         <img
                             alt=""
-                            src="/images/introduce/be-haihoa-introduce.png"
-                            className="w-[477px] h-auto animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
+                            src="/images/introduce/haihoa-introduce.png"
+                            className="sm:mt-8 lg:w-[477px] h-auto sm:w-[300px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
                         />
                     </div>
                 </div>

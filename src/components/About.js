@@ -4,22 +4,22 @@ import React from 'react';
 export default function About() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat py-[220px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[150px] sm:py-16`}
             id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl px-4">
-                <div className="grid grid-cols-2 justify-center items-center lg:gap-24 px-18">
+            <div className="mx-auto max-w-screen-xl lg:px-4 sm:px-6">
+                <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center lg:gap-24 px-18">
                     <div>
                         <img
                             alt=""
-                            src="/images/about/Behaihoa.png"
-                            className="w-[477px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
+                            src="/images/about/Behaihoa-Introduce.png"
+                            className="sm:mt-10 lg:w-[477px] sm:w-[300px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
                         />
                     </div>
 
                     <div>
-                        <div className="text-[#3255a8] text-left text-[70px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
-                            <div className="font-[StingerFitTrial-Bold]">
+                        <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[70px] sm:text-[36px] lg:leading-[70px] sm:leading-[40px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
+                            <div className="font-[SVN-Brice-SemiBold]">
                                 XIN CHÀO!
                             </div>
                             <div className="font-[StingerFitTrial]">
@@ -27,7 +27,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <div className="mt-10 text-[18px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-10 text-[22px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             Giữa muôn vàn hoa, có một bông hoa đặc biệt -{' '}
                             <span className="text-[#ee5b9f]">‘bé haihoa’</span>.
                             Mình là hình ảnh của những người trẻ luôn cố gắng

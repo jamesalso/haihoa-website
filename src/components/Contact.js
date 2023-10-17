@@ -4,14 +4,14 @@ import React from 'react';
 export default function Contact() {
     return (
         <section className="bg-[#3554A6]" id="ingredient">
-            <div className="mx-auto max-w-screen-xl py-[80px] px-4">
-                <div className="text-[#ffff] text-left text-[60px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
+            <div className="mx-auto max-w-screen-xl lg:py-[80px] sm:py-[40px] lg:px-4 sm:px-6">
+                <div className="text-[#ffff] text-left lg:text-[60px] sm:text-[40px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
                     <div className="font-[StingerFitTrial-Bold]">
                         CONTACT US!
                     </div>
                 </div>
 
-                <div className="mt-16 grid grid-cols-2 justify-center items-end lg:gap-24 px-18">
+                <div className="lg:mt-16 sm:mt-8 grid grid-cols-2 justify-center items-end lg:gap-24 px-18">
                     <div>
                         <div className="text-[#ffff]">
                             <div className="text-[20px] font-bold font-[CormorantGaramond]">
@@ -46,14 +46,14 @@ export default function Contact() {
                                     <img
                                         alt=""
                                         src="/images/contact/Facebook-Logo.svg"
-                                        className="w-[50px] cursor-pointer"
+                                        className="lg:w-[50px] sm:w-[35px]"
                                     />
                                 </a>
                                 <a rel="noreferrer" href="/" target="_blank">
                                     <img
                                         alt=""
                                         src="/images/contact/Instagram-Logo.svg"
-                                        className="w-[50px]"
+                                        className="lg:w-[50px] sm:w-[35px]"
                                     />
                                 </a>
                                 <a
@@ -64,7 +64,7 @@ export default function Contact() {
                                     <img
                                         alt=""
                                         src="/images/contact/TikTok-Logo.png"
-                                        className="w-[50px]"
+                                        className="lg:w-[50px] sm:w-[35px]"
                                     />
                                 </a>
                             </div>
@@ -74,8 +74,8 @@ export default function Contact() {
                     <div className="flex justify-end">
                         <img
                             alt=""
-                            src="/images/contact/TikTok-QRcode.png"
-                            className="w-[220px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms]"
+                            src="/images/contact/QRCode.png"
+                            className="lg:w-[180px] sm:w-[80px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms] border p-2 bg-[#ffff] rounded-3xl"
                         />
                     </div>
                 </div>

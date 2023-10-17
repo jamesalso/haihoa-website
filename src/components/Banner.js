@@ -7,8 +7,8 @@ export default function Banner() {
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
             id="ingredient"
         >
-            <div className="flex justify-center items-center py-[380px] px-80">
-                <div className="text-center italic text-[35px] text-[#ffffff] font-[CormorantGaramond] animate-fade-up animate-duration-[1000ms] animate-delay-[1000ms]">
+            <div className="flex justify-center items-center lg:h-[100vh] sm:py-[180px] lg:px-80 sm:px-6">
+                <div className="text-center italic lg:text-[35px] sm:text-[22px] text-[#ffffff] font-[CormorantGaramond] animate-fade-up animate-duration-[1000ms] animate-delay-[1000ms]">
                     “ <span className="text-[#ffdd04]">haihoa</span> là một
                     chiến dịch truyền thông tăng nhận thức cho những người trẻ
                     về hiện tượng `

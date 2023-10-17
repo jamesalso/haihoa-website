@@ -9,6 +9,7 @@ import Introduce from '@/components/Introduce';
 import About from '@/components/About';
 import Adviser from '@/components/Adviser';
 import Advisor from '@/components/Advisor';
+import Story from '@/components/Story';
 import Companion from '@/components/Companion';
 import Contact from '@/components/Contact';
 
@@ -47,6 +48,7 @@ export default function Home() {
                     <About />
                     <Adviser />
                     <Advisor />
+                    <Story />
                     <Companion />
                     <Contact />
                 </main>

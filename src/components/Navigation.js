@@ -13,11 +13,11 @@ export default function Navigation() {
     }, []);
 
     return (
-        <nav className="bg-transparent fixed w-full z-50">
+        <nav className="bg-transparent fixed w-full z-50 sm:py-[20px]">
             <div className="flex items-center justify-center">
                 <img
                     src="/images/navigation/haihoa-logo.png"
-                    className="w-[150px] cursor-pointer animate-fade-down"
+                    className="lg:w-[150px] sm:w-[100px] cursor-pointer animate-fade-down"
                     alt=""
                     onClick={() => {
                         window.scrollTo({
