@@ -4,7 +4,7 @@ import React from 'react';
 export default function Advisor() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[60px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px]`}
             id="certificate"
         >
             <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-6 lg:py-14">

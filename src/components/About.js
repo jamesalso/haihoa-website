@@ -4,7 +4,7 @@ import React from 'react';
 export default function About() {
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[150px] sm:py-16`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[180px] sm:py-16`}
             id="ingredient"
         >
             <div className="mx-auto max-w-screen-xl lg:px-4 sm:px-6">
