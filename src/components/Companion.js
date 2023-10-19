@@ -19,7 +19,7 @@ export default function Companion() {
 
                     <div>
                         <div className="font-[SVN-Brice-SemiBold] lg:leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
-                            <div className="text-[#ffdd04] lg:text-[40px] sm:text-[30px] lg:text-left">
+                            <div className="text-[#ffdd04] lg:text-[40px] sm:text-[25px] lg:text-left">
                                 HỖ TRỢ TRUYỀN THÔNG
                             </div>
                             <div className="mt-2 text-[#ee5b9f] lg:text-[55px] sm:text-[40px] lg:leading-[60px]">

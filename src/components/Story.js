@@ -15,7 +15,7 @@ export default function Story() {
                                 haihoa đi đâu đó?
                             </div>
                             <div className="lg:text-[42px] sm:text-[32px] text-[#ee5b9f]">
-                                HÀNH TRÌNH haihoa ĐI THẬT XA
+                                HÀNH TRÌNH haihoa <br /> ĐI THẬT XA
                             </div>
                         </div>
 

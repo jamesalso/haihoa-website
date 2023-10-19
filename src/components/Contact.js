@@ -11,9 +11,9 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className="lg:mt-16 sm:mt-8 grid grid-cols-2 justify-center items-end lg:gap-24 px-18">
+                <div className="lg:mt-16 sm:mt-8 grid grid-cols-2 justify-center items-end lg:gap-24 lg:px-18">
                     <div>
-                        <div className="text-[#ffff]">
+                        <div className="text-[#ffff] sm:w-[200px]">
                             <div className="text-[20px] font-bold font-[CormorantGaramond]">
                                 NUMBER
                             </div>
