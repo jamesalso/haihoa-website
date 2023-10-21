@@ -9,7 +9,7 @@ export default function Adviser() {
         >
             <div className="mx-auto max-w-screen-xl lg:px-8 lg:py-14 sm:px-6">
                 <div className="grid lg:grid-cols-3 sm:lg:grid-cols-1 gap-2 md:grid-cols-3 md:gap-8">
-                    <div className="mt-16">
+                    <div className="mt-16 animate-fade-right animate-duration-1000 animate-delay-[5000ms]">
                         <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
                             <span className="font-[StingerFitTrial-Bold]">
                                 Thầy Cliff McKinney
@@ -28,7 +28,7 @@ export default function Adviser() {
                         <img
                             src="/images/adviser/McKinney-teacher.jpg"
                             alt=""
-                            className="border-radius-ellipse lg:w-[400px] lg:h-[550px] sm:h-[300px]"
+                            className="border-radius-ellipse lg:w-[400px] lg:h-[550px] sm:h-[300px] animate-fade-down animate-duration-1000 animate-delay-[6000ms]"
                         />
                     </div>
 

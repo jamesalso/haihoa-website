@@ -23,7 +23,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Haihoa</title>
+                <title>haihoa</title>
                 <meta
                     name="description"
                     content="Dự án nâng cao nhận thức về hiện tượng 'people pleaser'"

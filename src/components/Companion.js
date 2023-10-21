@@ -8,7 +8,7 @@ export default function Companion() {
             id="ingredient"
         >
             <div className="mx-auto max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-4 sm:px-6">
-                <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-24 px-18">
+                <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14 px-18">
                     <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
                         <img
                             alt=""
@@ -22,7 +22,7 @@ export default function Companion() {
                             <div className="text-[#ffdd04] lg:text-[40px] sm:text-[25px] lg:text-left">
                                 HỖ TRỢ TRUYỀN THÔNG
                             </div>
-                            <div className="mt-2 text-[#ee5b9f] lg:text-[55px] sm:text-[40px] lg:leading-[60px]">
+                            <div className="mt-2 text-[#ee5b9f] lg:text-[34px] sm:text-[38px] lg:leading-[60px]">
                                 Phòng dịch vụ tư vấn tâm lý
                             </div>
                         </div>
