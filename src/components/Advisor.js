@@ -78,7 +78,7 @@ export default function Advisor() {
                         <div className="text-[#3255a8] text-left leading-[55px]">
                             <div className="text-[20px] font-[StingerFitTrial-Bold]">
                                 Quá trình công tác:
-                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[16px] font-[StingerFitTrial] ml-8">
                                     <li className="leading-[25px]">
                                         Giảng viên ngành Tâm lý học, Đại học
                                         Mississippi.

@@ -45,21 +45,21 @@ export default function Adviser() {
                                     <li className="leading-[25px]">
                                         Tiến sĩ Tâm lý học lâm sàng, Đại học
                                         Central Florida{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2004 - 2009)
                                         </span>
                                     </li>
                                     <li className="leading-[25px]">
                                         Thạc sĩ Khoa học Tâm lý học lâm sàng,
                                         Đại học Central Florida{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2002 - 2004)
                                         </span>
                                     </li>
                                     <li className="leading-[25px]">
                                         Tốt nghiệp thủ khoa khoa Tâm lý học tại
                                         Học viện Công nghệ Florida{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2000 - 2002)
                                         </span>
                                     </li>
@@ -72,28 +72,28 @@ export default function Adviser() {
                                 <ul className="text-[18px] font-[StingerFitTrial] ml-8">
                                     <li className="leading-[25px]">
                                         Giáo sư Tâm lý học, Đại học Mississippi{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2021 - Hiện tại)
                                         </span>
                                     </li>
                                     <li className="leading-[25px]">
                                         Phó Giáo sư Tâm lý học, Đại học
                                         Mississippi{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2015 - 2021)
                                         </span>
                                     </li>
                                     <li className="leading-[25px]">
                                         Trợ lý Giáo sư Tâm lý học, Đại học
                                         Mississippi{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2009 - 2015)
                                         </span>
                                     </li>
                                     <li className="leading-[25px]">
                                         Giám đốc Phòng khám Tâm lý MSU, Đại học
                                         Mississippi{' '}
-                                        <span className="font-[SVN-Brice]">
+                                        <span className="font-[SVN-Brice] text-[16px]">
                                             (2012 - 2014, 2016 - 2017)
                                         </span>
                                     </li>
