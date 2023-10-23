@@ -48,8 +48,8 @@ export default function Introduce() {
                                 nhu cầu của chính mình
                             </span>
                             . Họ thường không biết giới hạn của mình và không
-                            dám từ chối khi được yêu cầu{' '}
-                            <span className="text-[21px]">
+                            dám từ chối khi được yêu cầu -{' '}
+                            <span className="text-[21px] sm:whitespace-nowrap lg:whitespace-none">
                                 {' '}
                                 (Lcsw, 2020; Briggs et al., 1980; Charlie, 2023)
                             </span>

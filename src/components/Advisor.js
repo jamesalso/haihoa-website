@@ -7,7 +7,7 @@ export default function Advisor() {
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px]`}
             id="certificate"
         >
-            <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-6 lg:py-14">
+            <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-4 lg:py-14">
                 <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-2 md:gap-8">
                     <div className="mt-16">
                         <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] lg:leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
@@ -42,7 +42,7 @@ export default function Advisor() {
                         <div className="text-[#3255a8] text-left leading-[55px]">
                             <div className="text-[20px] font-[StingerFitTrial-Bold]">
                                 Trình độ học vấn:
-                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[15px] font-[StingerFitTrial] ml-6">
                                     <li className="leading-[25px]">
                                         Nghiên cứu sinh PhD Tâm lý học lâm sàng,
                                         Đại học Mississippi State (điểm quá
@@ -78,7 +78,7 @@ export default function Advisor() {
                         <div className="text-[#3255a8] text-left leading-[55px]">
                             <div className="text-[20px] font-[StingerFitTrial-Bold]">
                                 Quá trình công tác:
-                                <ul className="text-[16px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[15px] font-[StingerFitTrial] ml-6">
                                     <li className="leading-[25px]">
                                         Giảng viên ngành Tâm lý học, Đại học
                                         Mississippi.

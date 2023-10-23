@@ -22,7 +22,7 @@ export default function Companion() {
                             <div className="text-[#ffdd04] lg:text-[40px] sm:text-[25px] lg:text-left">
                                 HỖ TRỢ TRUYỀN THÔNG
                             </div>
-                            <div className="mt-2 text-[#ee5b9f] lg:text-[34px] sm:text-[39px] lg:leading-[60px]">
+                            <div className="mt-2 text-[#ee5b9f] text-[34px] lg:leading-[60px] lg:pr-0 sm:pr-[60px]">
                                 Phòng dịch vụ tư vấn tâm lý
                             </div>
                         </div>

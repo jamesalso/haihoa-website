@@ -7,7 +7,7 @@ export default function Adviser() {
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px]`}
             id="certificate"
         >
-            <div className="mx-auto max-w-screen-xl lg:px-8 lg:py-14 sm:px-6">
+            <div className="mx-auto max-w-screen-xl lg:px-8 lg:py-14 sm:px-4">
                 <div className="grid lg:grid-cols-3 sm:lg:grid-cols-1 gap-2 md:grid-cols-3 md:gap-8">
                     <div className="mt-16 animate-fade-right animate-duration-1000 animate-delay-[5000ms]">
                         <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
@@ -39,9 +39,9 @@ export default function Adviser() {
                             </span>
                         </div>
                         <div className="text-[#3255a8] text-left leading-[55px]">
-                            <div className="text-[20px] font-[StingerFitTrial-Bold]">
+                            <div className="text-[18px] font-[StingerFitTrial-Bold]">
                                 Trình độ học vấn:
-                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[15px] font-[StingerFitTrial] ml-6">
                                     <li className="leading-[25px]">
                                         Tiến sĩ Tâm lý học lâm sàng, Đại học
                                         Central Florida{' '}
@@ -67,14 +67,14 @@ export default function Adviser() {
                             </div>
                         </div>
                         <div className="text-[#3255a8] text-left leading-[55px]">
-                            <div className="text-[20px] font-[StingerFitTrial-Bold]">
+                            <div className="text-[18px] font-[StingerFitTrial-Bold]">
                                 Quá trình công tác:
-                                <ul className="text-[18px] font-[StingerFitTrial] ml-8">
+                                <ul className="text-[15px] font-[StingerFitTrial] ml-6 sm:pr-[40px]">
                                     <li className="leading-[25px]">
                                         Giáo sư Tâm lý học, Đại học Mississippi{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
+                                        <div className="font-[SVN-Brice] text-[16px]">
                                             (2021 - Hiện tại)
-                                        </span>
+                                        </div>
                                     </li>
                                     <li className="leading-[25px]">
                                         Phó Giáo sư Tâm lý học, Đại học
