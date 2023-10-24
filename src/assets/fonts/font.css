@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: 'CormorantGaramond-Bold';
+    src: url('./CormorantGaramond-Bold.ttf');
+}
+
+@font-face {
     font-family: 'StingerFitTrial';
     src: url('./StingerFitTrial-Regular.ttf');
 }
@@ -21,6 +26,11 @@
 @font-face {
     font-family: 'SVN-Brice';
     src: url('./SVN-Brice\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'SVN-Brice-Light';
+    src: url('./SVN-Brice\ Cond\ Light.otf');
 }
 
 @font-face {

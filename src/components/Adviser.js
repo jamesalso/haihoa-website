@@ -11,14 +11,14 @@ export default function Adviser() {
                 <div className="grid lg:grid-cols-3 sm:lg:grid-cols-1 gap-2 md:grid-cols-3 md:gap-8">
                     <div className="mt-16 animate-fade-right animate-duration-1000 animate-delay-[5000ms]">
                         <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
-                            <span className="font-[StingerFitTrial-Bold]">
+                            <span className="font-[StingerFitTrial-Bold] lg:whitespace-normal sm:whitespace-nowrap">
                                 Thầy Cliff McKinney
                             </span>
                         </div>
                         <div className="flex sm:justify-center lg:justify-start">
-                            <div className="bg-[#ee5b9f] lg:w-[320px] sm:w-[250px] lg:mt-4 sm:mt-2 p-3 rounded-3xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
-                                <span className="flex text-center lg:justify-center sm:justify-start font-[StingerFitTrial-Bold] text-[#ffffff] lg:text-[20px] sm:text-[17px]">
-                                    Giáo sư nghành Tâm lý học
+                            <div className="bg-[#ee5b9f] lg:mt-4 sm:mt-2 p-3 rounded-3xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none">
+                                <span className="flex text-center lg:justify-center sm:justify-start font-[CormorantGaramond-Bold] text-[#ffffff] lg:text-[20px] sm:text-[17px] sm:whitespace-nowrap">
+                                    Giáo sư ngành Tâm lý học
                                 </span>
                             </div>
                         </div>
@@ -41,27 +41,18 @@ export default function Adviser() {
                         <div className="text-[#3255a8] text-left leading-[55px]">
                             <div className="text-[18px] font-[StingerFitTrial-Bold]">
                                 Trình độ học vấn:
-                                <ul className="text-[15px] font-[StingerFitTrial] ml-6">
+                                <ul className="text-[14px] font-[SVN-Brice] ml-6">
                                     <li className="leading-[25px]">
                                         Tiến sĩ Tâm lý học lâm sàng, Đại học
-                                        Central Florida{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2004 - 2009)
-                                        </span>
+                                        Central Florida (2004 - 2009)
                                     </li>
                                     <li className="leading-[25px]">
                                         Thạc sĩ Khoa học Tâm lý học lâm sàng,
-                                        Đại học Central Florida{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2002 - 2004)
-                                        </span>
+                                        Đại học Central Florida (2002 - 2004)
                                     </li>
                                     <li className="leading-[25px]">
                                         Tốt nghiệp thủ khoa khoa Tâm lý học tại
-                                        Học viện Công nghệ Florida{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2000 - 2002)
-                                        </span>
+                                        Học viện Công nghệ Florida (2000 - 2002)
                                     </li>
                                 </ul>
                             </div>
@@ -69,33 +60,22 @@ export default function Adviser() {
                         <div className="text-[#3255a8] text-left leading-[55px]">
                             <div className="text-[18px] font-[StingerFitTrial-Bold]">
                                 Quá trình công tác:
-                                <ul className="text-[15px] font-[StingerFitTrial] ml-6 sm:pr-[40px]">
+                                <ul className="text-[14px] font-[SVN-Brice] ml-6 sm:pr-[40px]">
                                     <li className="leading-[25px]">
-                                        Giáo sư Tâm lý học, Đại học Mississippi{' '}
-                                        <div className="font-[SVN-Brice] text-[16px]">
-                                            (2021 - Hiện tại)
-                                        </div>
+                                        Giáo sư Tâm lý học, Đại học Mississippi
+                                        (2021 - Hiện tại)
                                     </li>
                                     <li className="leading-[25px]">
                                         Phó Giáo sư Tâm lý học, Đại học
-                                        Mississippi{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2015 - 2021)
-                                        </span>
+                                        Mississippi (2015 - 2021)
                                     </li>
                                     <li className="leading-[25px]">
                                         Trợ lý Giáo sư Tâm lý học, Đại học
-                                        Mississippi{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2009 - 2015)
-                                        </span>
+                                        Mississippi (2009 - 2015)
                                     </li>
                                     <li className="leading-[25px]">
                                         Giám đốc Phòng khám Tâm lý MSU, Đại học
-                                        Mississippi{' '}
-                                        <span className="font-[SVN-Brice] text-[16px]">
-                                            (2012 - 2014, 2016 - 2017)
-                                        </span>
+                                        Mississippi (2012 - 2014, 2016 - 2017)
                                     </li>
                                 </ul>
                             </div>
