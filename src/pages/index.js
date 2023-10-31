@@ -6,6 +6,7 @@ import SplashScreen from '@/components/SplashScreen';
 import Navigation from '@/components/Navigation';
 import Banner from '@/components/Banner';
 import Introduce from '@/components/Introduce';
+import PeoplePleaser from '@/components/PeoplePleaser';
 import About from '@/components/About';
 import Adviser from '@/components/Adviser';
 import Advisor from '@/components/Advisor';
@@ -45,6 +46,7 @@ export default function Home() {
                     <Navigation />
                     <Banner />
                     <Introduce />
+                    <PeoplePleaser />
                     <About />
                     <Adviser />
                     <Advisor />

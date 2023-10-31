@@ -19,7 +19,7 @@ export default function Story() {
                             </div>
                         </div>
 
-                        <div className="mt-8 lg:text-[18px] font-[StingerFitTrial] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="lg:w-[570px] mt-8 lg:text-[18px] font-[StingerFitTrial] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             <span className="text-[#ee5b9f]">bé haihoa</span> là
                             một bạn nhỏ luôn tươi cười, yêu hoà bình. Bé haihoa
                             đến từ{' '}
@@ -32,7 +32,7 @@ export default function Story() {
                             luôn được vui vẻ, hạnh phúc.
                         </div>
 
-                        <div className="mt-6 lg:text-[18px] font-[StingerFitTrial] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="lg:w-[570px] mt-6 lg:text-[18px] font-[StingerFitTrial] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             Ngoài yêu hòa bình, bé haihoa cũng là một bạn nhỏ
                             ham học hỏi, luôn muốn được bước ra ngoài và khám
                             phá thế giới li kì ngoài kia. Vậy là, một ngày nọ,
@@ -46,7 +46,7 @@ export default function Story() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="flex lg:justify-end">
                         <img
                             alt=""
                             src="/images/haihoaStory/Behaihoa-Story.jpg"
