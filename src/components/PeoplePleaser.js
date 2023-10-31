@@ -11,15 +11,15 @@ export default function PeoplePleaser() {
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-44 lg:px-18 sm:px-3">
                     <div>
                         <div className="lg:text-left sm:text-center text-[#3255a8] font-[StingerFitTrial] lg:leading-[70px] sm:leading-[45px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
-                            <div className="lg:text-[55px] sm:text-[28px]">
+                            <div className="lg:text-[55px] sm:text-[32px]">
                                 People Pleaser
                             </div>
-                            <div className="lg:w-[580px] font-[SVN-Brice-SemiBold] lg:text-[36px] sm:text-[32px]">
+                            <div className="lg:w-[580px] font-[SVN-Brice-SemiBold] lg:text-[36px] sm:text-[22px]">
                                 Không phải là một căn bệnh
                             </div>
                         </div>
 
-                        <div className="mt-8 lg:text-[19px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-8 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             <span className="text-[#ee5b9f]">
                                 Những người làm hài lòng người khác
                             </span>{' '}
@@ -36,7 +36,7 @@ export default function PeoplePleaser() {
                             𝘗𝘩.𝘋, 2020).
                         </div>
 
-                        <div className="mt-6 lg:text-[19px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-6 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             Theo trang Medical News Today,{' '}
                             <span className="text-[#ee5b9f]">
                                 “people pleaser” không phải là bệnh
