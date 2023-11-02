@@ -59,7 +59,7 @@ export default function PeoplePleaser() {
                     <div className="flex lg:justify-end">
                         <img
                             alt=""
-                            src="/images/peoplePleaser/People _Pleasur.png"
+                            src="/images/peoplePleaser/People_Pleasur.png"
                             className="sm:mt-8 w-[514px] animate-fade-up animate-duration-[1000ms] animate-delay-[2500ms] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-md border-2 border-black"
                         />
                     </div>

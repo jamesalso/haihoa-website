@@ -13,6 +13,7 @@ import Advisor from '@/components/Advisor';
 import Story from '@/components/Story';
 import Companion from '@/components/Companion';
 import Contact from '@/components/Contact';
+import Slide from '@/components/Slide';
 
 export default function Home() {
     const [splashVisible, setSplashVisible] = useState(true);
@@ -51,6 +52,7 @@ export default function Home() {
                     <Adviser />
                     <Advisor />
                     <Story />
+                    <Slide />
                     <Companion />
                     <Contact />
                 </main>

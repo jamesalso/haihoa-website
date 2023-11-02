@@ -20,3 +20,7 @@ ul {
 html {
     scroll-behavior: smooth;
 }
+.slick-prev:before,
+.slick-next:before {
+    color: transparent !important;
+}

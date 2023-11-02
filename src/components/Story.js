@@ -5,7 +5,6 @@ export default function Story() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[100px] sm:py-[60px]`}
-            id="ingredient"
         >
             <div className="mx-auto max-w-screen-xl px-4">
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-44 lg:px-18 sm:px-3">
