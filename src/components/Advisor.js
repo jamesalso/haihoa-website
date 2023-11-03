@@ -6,7 +6,7 @@ export default function Advisor() {
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[50px]`}
         >
-            <div className="mx-auto lg:max-w-max sm:max-w-screen-xl lg:px-[180px] sm:px-4 lg:py-14">
+            <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-4 lg:py-14">
                 <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-2 md:gap-8">
                     <div className="mt-16">
                         <div className="text-[#3255a8] lg:text-left sm:text-center lg:text-[55px] sm:text-[32px] lg:leading-[55px] animate-fade animate-duration-1000 animate-delay-[3000ms]">

@@ -6,7 +6,7 @@ export default function Companion() {
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
         >
-            <div className="mx-auto lg:max-w-max sm:max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-[20px] sm:px-6">
+            <div className="mx-auto max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-[20px] sm:px-6">
                 <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14 px-18">
                     <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
                         <img
@@ -26,7 +26,7 @@ export default function Companion() {
                             </div>
                         </div>
 
-                        <div className="mt-8 lg:text-[20px] sm:text-[18px] font-[CormorantGaramond] text-[#ffff] animate-fade-up animate-duration-1000 animate-delay-[3000ms] lg:w-[650px]">
+                        <div className="mt-8 lg:text-[20px] sm:text-[18px] font-[CormorantGaramond] text-[#ffff] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
                             Hẻm 202 - Trang kết nối hỗ trợ tư vấn tâm lý dành{' '}
                             cho sinh viên Trường Đại Học FPT Hồ Chí Minh.
                         </div>

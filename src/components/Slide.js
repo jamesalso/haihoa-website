@@ -67,7 +67,7 @@ export default function Slide() {
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px] sm:py-[45px]`}
         >
             <div className="lg:flex-col sm:flex sm:flex-col-reverse">
-                <div className="lg:mx-auto sm:max-w-screen-xl sm:pl-[70px] lg:pl-[0px]">
+                <div className="lg:mx-auto max-w-screen-xl sm:pl-[70px] lg:pl-[20px] lg:px-[35px]">
                     <Slider {...settings} className="mt-16 lg:pl-[50px]">
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
