@@ -5,9 +5,8 @@ export default function PeoplePleaser() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[100px] sm:py-[60px]`}
-            id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl px-4">
+            <div className="mx-auto lg:max-w-max sm:max-w-screen-xl lg:px-[150px] sm:px-4">
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-44 lg:px-18 sm:px-3">
                     <div>
                         <div className="lg:text-left sm:text-center text-[#3255a8] font-[StingerFitTrial] lg:leading-[70px] sm:leading-[45px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
@@ -19,7 +18,7 @@ export default function PeoplePleaser() {
                             </div>
                         </div>
 
-                        <div className="mt-8 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-8 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms] lg:w-[630px]">
                             <span className="text-[#ee5b9f]">
                                 Những người làm hài lòng người khác
                             </span>{' '}
@@ -32,11 +31,13 @@ export default function PeoplePleaser() {
                             <span className="text-[#ee5b9f]">
                                 việc nói đồng ý với những yêu cầu của người khác
                             </span>{' '}
-                            dường như là một thói quen của họ (𝘚𝘶𝘴𝘢𝘯 𝘕𝘦𝘸𝘮𝘢𝘯
-                            𝘗𝘩.𝘋, 2020).
+                            dường như là một thói quen của họ{' '}
+                            <span className="font-[CormorantGaramond-Bold]">
+                                (𝘚𝘶𝘴𝘢𝘯 𝘕𝘦𝘸𝘮𝘢𝘯 𝘗𝘩.𝘋, 2020).
+                            </span>
                         </div>
 
-                        <div className="mt-6 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond-Bold] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms]">
+                        <div className="mt-6 lg:text-[19px] sm:text-[17px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[3000ms] lg:w-[630px]">
                             Theo trang Medical News Today,{' '}
                             <span className="text-[#ee5b9f]">
                                 “people pleaser” không phải là bệnh
@@ -52,7 +53,10 @@ export default function PeoplePleaser() {
                             hệ gắn bó với nhau.
                             <br /> Cho nên nhiều người đôi khi điều chỉnh hành
                             vi của mình để tạo ra sự hòa hợp và thân thiện trong
-                            giao tiếp với mọi người (𝘝𝘪𝘭𝘭𝘪𝘯𝘦𝘴, 𝘡., 2023).
+                            giao tiếp với mọi người{' '}
+                            <span className="font-[CormorantGaramond-Bold]">
+                                (𝘝𝘪𝘭𝘭𝘪𝘯𝘦𝘴, 𝘡., 2023).
+                            </span>
                         </div>
                     </div>
 

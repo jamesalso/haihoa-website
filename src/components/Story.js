@@ -6,7 +6,7 @@ export default function Story() {
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[100px] sm:py-[60px]`}
         >
-            <div className="mx-auto max-w-screen-xl px-4">
+            <div className="mx-auto lg:max-w-max sm:max-w-screen-xl lg:px-[150px] sm:px-4">
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-44 lg:px-18 sm:px-3">
                     <div>
                         <div className="lg:text-left sm:text-center font-[StingerFitTrial-Bold] lg:leading-[70px] sm:leading-[45px] animate-fade animate-duration-1000 animate-delay-[3000ms]">

@@ -5,9 +5,8 @@ export default function About() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[130px] sm:py-16`}
-            id="ingredient"
         >
-            <div className="mx-auto max-w-screen-xl lg:px-4 sm:px-6">
+            <div className="mx-auto lg:max-w-max sm:max-w-screen-xl lg:px-[150px] sm:px-6">
                 <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center lg:gap-24 px-18">
                     <div>
                         <img
@@ -27,7 +26,7 @@ export default function About() {
                             </div>
                         </div>
 
-                        <div className="mt-10 text-[19px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[4000ms]">
+                        <div className="mt-10 lg:text-[19px] font-[CormorantGaramond] text-[#3255a8] animate-fade-up animate-duration-1000 animate-delay-[4000ms] lg:w-[680px] sm:text-[16px]">
                             Giữa muôn vàn hoa, có một bông hoa đặc biệt -{' '}
                             <span className="text-[#ee5b9f]">‘bé haihoa’</span>.
                             Mình là hình ảnh của những người trẻ luôn cố gắng
