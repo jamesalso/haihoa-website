@@ -17,9 +17,11 @@ export default function Contact() {
                             <div className="text-[20px] font-bold font-[CormorantGaramond]">
                                 NUMBER
                             </div>
-                            <div className="text-[18px] font-[CormorantGaramond-Light]">
-                                +84 912716901 (Hoàng Trúc)
-                            </div>
+                            <a href="tel:+84 912716901">
+                                <div className="text-[18px] font-[CormorantGaramond-Light]">
+                                    +84 912716901 (Hoàng Trúc)
+                                </div>
+                            </a>
                         </div>
                         <div className="mt-3">
                             <div className="text-[20px] font-bold font-[CormorantGaramond] text-[#ffff]">
