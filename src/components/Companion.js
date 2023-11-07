@@ -22,7 +22,7 @@ export default function Companion() {
                                 HỖ TRỢ TRUYỀN THÔNG
                             </div>
                             <div className="mt-2 text-[#ee5b9f] text-[34px] lg:leading-[60px] lg:pr-0 sm:pr-[60px]">
-                                Phòng dịch vụ tư vấn tâm lý
+                                Phòng tư vấn tâm lý
                             </div>
                         </div>
 

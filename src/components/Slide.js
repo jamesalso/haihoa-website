@@ -67,8 +67,11 @@ export default function Slide() {
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px] sm:py-[45px]`}
         >
             <div className="lg:flex-col sm:flex sm:flex-col-reverse">
-                <div className="lg:mx-auto max-w-screen-xl sm:pl-[70px] lg:pl-[20px] lg:px-[35px]">
-                    <Slider {...settings} className="mt-16 lg:pl-[50px]">
+                <div className="lg:mx-auto max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
+                    <Slider
+                        {...settings}
+                        className="lg:pl-[20px] sm:text-center"
+                    >
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
                                 href="https://www.facebook.com/61551521627995/posts/pfbid0SR35h4gkWccdrxDPVLpcj8aJUwWKPXu4Pa7CiFK2nSwXmBdp6dX67wLv8bJeJuWwl/?_rdc=1&_rdr"
