@@ -36,9 +36,13 @@ export default function Home() {
                 />
                 <meta
                     property="og:image"
-                    content="../../public/images/banner/bannerCollagen.png"
+                    content="/images/thumbnail/thumbnail-haihoa.png"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link
+                    rel="shortcut icon"
+                    href="/images/slide/poster_preview_rev_1.png"
+                    type="image/x-icon"
+                />
             </Head>
             {splashVisible ? (
                 <SplashScreen ended={handleIntro} />
