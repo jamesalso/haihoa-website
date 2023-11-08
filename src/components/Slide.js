@@ -67,7 +67,7 @@ export default function Slide() {
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[80px] sm:py-[45px]`}
         >
             <div className="lg:flex-col sm:flex sm:flex-col-reverse">
-                <div className="lg:mx-auto max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
+                <div className="lg:mx-auto lg:mt-14 sm:mt-6 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
                     <Slider
                         {...settings}
                         className="lg:pl-[20px] sm:text-center"
@@ -324,7 +324,7 @@ export default function Slide() {
                         </div>
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
-                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                href="https://www.facebook.com/haihoa.project/posts/pfbid02Fk9SDg6nQJ1NL7oMigvmbziVBWysNZ4mgPC524xxeZVmBZadTdvTU3o1FDCGntaul"
                                 target="blank"
                             >
                                 <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
@@ -375,7 +375,7 @@ export default function Slide() {
                         </div>
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
-                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                href="https://www.facebook.com/haihoa.project/posts/pfbid0wUhYW4hKyH4BqE3agF7mH86u16BnRgDwBL6iDZngn5HfznUKTwY3vmg29W3Uu5oDl"
                                 target="blank"
                             >
                                 <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
@@ -425,7 +425,7 @@ export default function Slide() {
                         </div>
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
-                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                href="https://www.facebook.com/haihoa.project/posts/pfbid034Hvsy4YSU68tuAqTJV4MyK7uVDbBcTLVfK58Qk2KN7576S1uNffYoCQXKmLVZ9cyl"
                                 target="blank"
                             >
                                 <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
@@ -475,7 +475,7 @@ export default function Slide() {
                         </div>
                         <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
                             <a
-                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                href="https://www.facebook.com/haihoa.project/posts/pfbid0yB6cyS5Ab9WK2r7NgNqhfjTd6MwAh6w3uYB2EnosCqvFhaLvYD5Y8zc5bFimiiMsl"
                                 target="blank"
                             >
                                 <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">

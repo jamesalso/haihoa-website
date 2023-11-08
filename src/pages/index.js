@@ -26,6 +26,7 @@ export default function Home() {
         <>
             <Head>
                 <title>haihoa</title>
+                <meta property="og:title" content="haihoa" />
                 <meta
                     name="description"
                     content="Dự án nâng cao nhận thức về hiện tượng 'people pleaser'"
