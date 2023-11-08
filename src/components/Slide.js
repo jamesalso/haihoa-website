@@ -322,6 +322,207 @@ export default function Slide() {
                                 </div>
                             </a>
                         </div>
+                        <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
+                            <a
+                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                target="blank"
+                            >
+                                <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
+                                    <div className="pt-5 text-[#ee5b9f] text-center text-[11px] font-[StingerFitTrial]">
+                                        haihoa ĐI ĐÂU ĐÓ?
+                                    </div>
+                                    <div className="mt-3 flex flex-col gap-2">
+                                        <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice]">
+                                            Tập 6:
+                                            <br /> haihoa <br />
+                                            thích công bằng
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/342786_arrow_right_icon.svg"
+                                                className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center gap-1">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/317752_facebook_social media_social_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/5335781_camera_instagram_social media_instagram logo_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/8547041_tiktok_icon.svg"
+                                                className="w-[11px]"
+                                            />
+                                            <div className="text-[#ee5b9f] text-center text-[10px] font-[StingerFitTrial]">
+                                                haihoa.project
+                                            </div>
+                                            <img
+                                                alt=""
+                                                src="/images/slide/haihoa_preview_rev_1.png"
+                                                className="w-[20px] h-[12px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
+                            <a
+                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                target="blank"
+                            >
+                                <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
+                                    <div className="pt-5 text-[#ee5b9f] text-center text-[11px] font-[StingerFitTrial]">
+                                        haihoa ĐI ĐÂU ĐÓ?
+                                    </div>
+                                    <div className="mt-12 flex flex-col gap-2">
+                                        <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice]">
+                                            Tập 7:
+                                            <br /> Xin lỗi
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/342786_arrow_right_icon.svg"
+                                                className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center gap-1">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/317752_facebook_social media_social_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/5335781_camera_instagram_social media_instagram logo_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/8547041_tiktok_icon.svg"
+                                                className="w-[11px]"
+                                            />
+                                            <div className="text-[#ee5b9f] text-center text-[10px] font-[StingerFitTrial]">
+                                                haihoa.project
+                                            </div>
+                                            <img
+                                                alt=""
+                                                src="/images/slide/haihoa_preview_rev_1.png"
+                                                className="w-[20px] h-[12px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
+                            <a
+                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                target="blank"
+                            >
+                                <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
+                                    <div className="pt-5 text-[#ee5b9f] text-center text-[11px] font-[StingerFitTrial]">
+                                        haihoa ĐI ĐÂU ĐÓ?
+                                    </div>
+                                    <div className="mt-12 flex flex-col gap-2">
+                                        <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice]">
+                                            Tập 8:
+                                            <br /> Đừng xin lỗi nữa
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/342786_arrow_right_icon.svg"
+                                                className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center gap-1">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/317752_facebook_social media_social_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/5335781_camera_instagram_social media_instagram logo_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/8547041_tiktok_icon.svg"
+                                                className="w-[11px]"
+                                            />
+                                            <div className="text-[#ee5b9f] text-center text-[10px] font-[StingerFitTrial]">
+                                                haihoa.project
+                                            </div>
+                                            <img
+                                                alt=""
+                                                src="/images/slide/haihoa_preview_rev_1.png"
+                                                className="w-[20px] h-[12px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div className="bg-[#2954ad] rounded-[35px] !w-[280px] h-[280px] cursor-pointer">
+                            <a
+                                href="https://www.facebook.com/61551521627995/posts/pfbid02Dq5J7yVt1sPeU5BgsAJyLa9JBea5MUigUHmqtgAmgQRe8Mf7oRjxEsXcaNFaK1HJl/?_rdc=1&_rdr"
+                                target="blank"
+                            >
+                                <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
+                                    <div className="pt-5 text-[#ee5b9f] text-center text-[11px] font-[StingerFitTrial]">
+                                        haihoa ĐI ĐÂU ĐÓ?
+                                    </div>
+                                    <div className="mt-12 flex flex-col gap-2">
+                                        <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice]">
+                                            Tập 9:
+                                            <br /> Lựa chọn
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/342786_arrow_right_icon.svg"
+                                                className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center gap-1">
+                                            <img
+                                                alt=""
+                                                src="/images/slide/317752_facebook_social media_social_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/5335781_camera_instagram_social media_instagram logo_icon.svg"
+                                                className="w-[13px]"
+                                            />
+                                            <img
+                                                alt=""
+                                                src="/images/slide/8547041_tiktok_icon.svg"
+                                                className="w-[11px]"
+                                            />
+                                            <div className="text-[#ee5b9f] text-center text-[10px] font-[StingerFitTrial]">
+                                                haihoa.project
+                                            </div>
+                                            <img
+                                                alt=""
+                                                src="/images/slide/haihoa_preview_rev_1.png"
+                                                className="w-[20px] h-[12px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </Slider>
                 </div>
 

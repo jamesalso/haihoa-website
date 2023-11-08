@@ -19,7 +19,7 @@ export default function Companion() {
                     <div>
                         <div className="font-[SVN-Brice-SemiBold] lg:leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
                             <div className="text-[#ffdd04] lg:text-[40px] sm:text-[25px] lg:text-left">
-                                HỖ TRỢ TRUYỀN THÔNG
+                                ĐƠN VỊ ĐỒNG HÀNH!
                             </div>
                             <div className="mt-2 text-[#ee5b9f] text-[34px] lg:leading-[60px] lg:pr-0 sm:pr-[60px]">
                                 Phòng tư vấn tâm lý
