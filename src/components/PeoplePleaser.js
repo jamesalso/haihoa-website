@@ -5,6 +5,7 @@ export default function PeoplePleaser() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[100px] sm:py-[60px]`}
+            id="people-pleaser"
         >
             <div className="mx-auto max-w-screen-xl lg:px-6 sm:px-4">
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-44 lg:px-18 sm:px-3">

@@ -5,6 +5,7 @@ export default function Introduce() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[100px] sm:py-2`}
+            id="introduce"
         >
             <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-6">
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center lg:gap-18 px-18">

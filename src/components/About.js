@@ -5,6 +5,7 @@ export default function About() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[130px] sm:py-16`}
+            id="about"
         >
             <div className="mx-auto max-w-screen-xl lg:px-6 sm:px-6">
                 <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center lg:gap-24 px-18">

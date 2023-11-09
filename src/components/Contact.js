@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <section className="bg-[#3554A6]">
+        <section className="bg-[#3554A6]" id="contact">
             <div className="mx-auto max-w-screen-xl lg:py-[80px] sm:py-[40px] lg:px-4 sm:px-6">
                 <div className="text-[#ffff] text-left lg:text-[60px] sm:text-[35px] leading-[70px] animate-fade animate-duration-1000 animate-delay-[3000ms]">
                     <div className="font-[StingerFitTrial-Bold]">

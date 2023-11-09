@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 
 import SplashScreen from '@/components/SplashScreen';
-import Navigation from '@/components/Navigation';
+import Logo from '@/components/Logo';
 import Banner from '@/components/Banner';
 import Introduce from '@/components/Introduce';
 import PeoplePleaser from '@/components/PeoplePleaser';
@@ -13,7 +13,8 @@ import Advisor from '@/components/Advisor';
 import Story from '@/components/Story';
 import Companion from '@/components/Companion';
 import Contact from '@/components/Contact';
-import Slide from '@/components/Slide';
+import Comics from '@/components/Comics';
+import Navigator from '@/components/Navigator';
 
 export default function Home() {
     const [splashVisible, setSplashVisible] = useState(true);
@@ -49,15 +50,16 @@ export default function Home() {
                 <SplashScreen ended={handleIntro} />
             ) : (
                 <main>
-                    <Navigation />
+                    <Logo />
                     <Banner />
+                    <Navigator />
                     <Introduce />
                     <PeoplePleaser />
                     <About />
                     <Adviser />
                     <Advisor />
                     <Story />
-                    <Slide />
+                    <Comics />
                     <Companion />
                     <Contact />
                 </main>

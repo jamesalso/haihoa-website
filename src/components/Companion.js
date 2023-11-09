@@ -5,6 +5,7 @@ export default function Companion() {
     return (
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
+            id="companion"
         >
             <div className="mx-auto max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-[20px] sm:px-6">
                 <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14 px-18">

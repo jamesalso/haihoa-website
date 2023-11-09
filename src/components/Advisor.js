@@ -5,6 +5,7 @@ export default function Advisor() {
     return (
         <section
             className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[50px]`}
+            id="adviser"
         >
             <div className="mx-auto max-w-screen-xl lg:px-8 sm:px-4 lg:py-14">
                 <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-2 md:gap-8">
