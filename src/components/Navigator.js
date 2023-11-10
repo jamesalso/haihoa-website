@@ -102,49 +102,45 @@ export default function Menu() {
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
         >
-            <div className="max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-[20px] sm:px-6">
-                <div className="lg:flex-col sm:flex sm:flex-col-reverse">
-                    <div className="lg:mt-14 sm:mt-6 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
-                        {!loading && navigator?.length > 0 && (
-                            <Slider
-                                {...settings}
-                                className="lg:pl-[20px] sm:text-center"
-                            >
-                                {navigator.map((item) => (
-                                    <div
-                                        key={item?.id}
-                                        className="!w-[280px] h-[280px] cursor-pointer"
-                                    >
-                                        <a href={`#${item?.link}`}>
-                                            <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
-                                                <div className="mt-12 flex flex-col gap-2">
-                                                    <div
-                                                        className="text-[#ee5b9f] text-center text-[22px] font-[SVN-Brice]"
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: item?.title,
-                                                        }}
+            <div className="mx-auto max-w-screen-xl lg:py-[100px] sm:py-[60px] lg:px-[20px] sm:px-6">
+                <div className="lg:mt-14 sm:mt-6 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
+                    {!loading && navigator?.length > 0 && (
+                        <Slider
+                            {...settings}
+                            className="lg:pl-[20px] sm:text-center"
+                        >
+                            {navigator.map((item) => (
+                                <div key={item?.id} className="cursor-pointer">
+                                    <a href={`#${item?.link}`}>
+                                        <div className="bg-[#ffffff] rounded-[40px] !w-[260px] h-[260px] mx-auto mt-[10px]">
+                                            <div className="flex flex-col gap-2">
+                                                <div
+                                                    className="mt-4 text-[#ee5b9f] text-[15px] text-center font-[SVN-Brice] min-h-[72px] px-4"
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item?.title,
+                                                    }}
+                                                />
+                                                <div class="divider div-transparent div-dot"></div>
+                                                <div
+                                                    className="mt-3 text-[#2954ad] text-left text-[10px] font-[SVN-Brice] px-5 min-h-[90px]"
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item?.description,
+                                                    }}
+                                                />
+                                                <div className="flex justify-center">
+                                                    <img
+                                                        alt=""
+                                                        src="/images/slide/342786_arrow_right_icon.svg"
+                                                        className="!h-[40px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
                                                     />
-                                                    <div
-                                                        className="text-[#2954ad] text-center font-[SVN-Brice]"
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: item?.description,
-                                                        }}
-                                                    />
-                                                    <div className="flex justify-center">
-                                                        <img
-                                                            alt=""
-                                                            src="/images/slide/342786_arrow_right_icon.svg"
-                                                            className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
-                                                        />
-                                                    </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    </div>
-                                ))}
-                            </Slider>
-                        )}
-                    </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            ))}
+                        </Slider>
+                    )}
                 </div>
                 <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14">
                     <div className="flex items-end gap-16">
@@ -202,7 +198,7 @@ export default function Menu() {
                             />
                         </div>
                     </div>
-                    <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                    <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto rounded-[50px] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                         <video
                             playsInline
                             muted
