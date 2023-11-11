@@ -102,8 +102,21 @@ export default function Menu() {
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
         >
-            <div className="mx-auto max-w-screen-xl lg:py-[100px] sm:py-[60px] lg:px-[20px] sm:px-6">
-                <div className="lg:mt-14 sm:mt-6 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
+            <div className="mx-auto max-w-screen-xl lg:py-[60px] sm:py-[60px] lg:px-[20px] sm:px-6">
+                <div className="sm:flex sm:justify-center">
+                    <video
+                        playsInline
+                        muted
+                        autoPlay
+                        controls
+                        loop
+                        preload="auto"
+                        className="lg:hidden sm:block w-[300px] rounded-[50px]"
+                    >
+                        <source src={HaihoaVideo} type="video/mp4" />
+                    </video>
+                </div>
+                <div className="sm:mt-12 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
                     {!loading && navigator?.length > 0 && (
                         <Slider
                             {...settings}
@@ -142,10 +155,22 @@ export default function Menu() {
                         </Slider>
                     )}
                 </div>
-                <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14">
-                    <div className="flex items-end gap-16">
+                <hr className="lg:block sm:hidden line mt-12 mx-12" />
+                <div className="mt-7 flex justify-center items-center gap-2">
+                    <img
+                        alt=""
+                        src="/images/slide/9165417_swipe_left_icon.svg"
+                        className="!w-[25px] lg:hidden sm:block"
+                    />
+                    <div className="text-[#ee5b9f] text-[14px] font-[SVN-Brice] lg:hidden sm:block">
+                        Swipe
+                    </div>
+                </div>
+
+                <div className="lg:mt-10 sm:mt-14 lg:mx-auto lg:flex lg:justify-between lg:items-end lg:gap-14 lg:px-12">
+                    <div className="flex sm:justify-between items-end lg:gap-16">
                         <div>
-                            <div className="mt-8 text-[12px] font-[SVN-Brice] text-[#ffdd04] leading-5">
+                            <div className="mt-8 lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
                                 <div>EMAIL: haihoa.tuoisac@gmail.com</div>
                                 <div>PHONE: +84 9127169001 (Hoàng Trúc)</div>
                             </div>
@@ -188,7 +213,7 @@ export default function Menu() {
                             </div>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="mt-8 text-[12px] font-[SVN-Brice] text-[#ffdd04] leading-5">
+                            <div className="mt-8 lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
                                 <div>Đơn vị đồng hành</div>
                             </div>
                             <img
@@ -198,7 +223,7 @@ export default function Menu() {
                             />
                         </div>
                     </div>
-                    <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto rounded-[50px] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                    <div>
                         <video
                             playsInline
                             muted
@@ -206,7 +231,7 @@ export default function Menu() {
                             controls
                             loop
                             preload="auto"
-                            className="w-[300px] rounded-[50px]"
+                            className="lg:block sm:hidden lg:w-[300px] sm:w-[250px] rounded-[50px]"
                         >
                             <source src={HaihoaVideo} type="video/mp4" />
                         </video>
