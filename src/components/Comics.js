@@ -119,9 +119,9 @@ export default function Comics() {
                                             <div className="pt-5 text-[#ee5b9f] text-center text-[11px] font-[StingerFitTrial]">
                                                 haihoa ĐI ĐÂU ĐÓ?
                                             </div>
-                                            <div className="mt-12 flex flex-col gap-2">
+                                            <div className="mt-[22px] flex flex-col">
                                                 <div
-                                                    className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice]"
+                                                    className="min-h-[100px] text-[#2954ad] text-center text-[20px] font-[SVN-Brice]"
                                                     dangerouslySetInnerHTML={{
                                                         __html: comic?.title,
                                                     }}
@@ -133,7 +133,7 @@ export default function Comics() {
                                                         className="!h-[55px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
                                                     />
                                                 </div>
-                                                <div className="flex justify-center gap-1">
+                                                <div className="mt-2 flex justify-center gap-1">
                                                     <img
                                                         alt=""
                                                         src="/images/slide/317752_facebook_social media_social_icon.svg"
