@@ -223,7 +223,7 @@ export default function Menu() {
                             />
                         </div>
                     </div>
-                    <div>
+                    <div className="lg:rounded-[50px] lg:border-2 lg:border-black lg:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                         <video
                             playsInline
                             muted
