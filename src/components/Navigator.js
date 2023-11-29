@@ -216,11 +216,18 @@ export default function Menu() {
                             <div className="mt-8 lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
                                 <div>Đơn vị đồng hành</div>
                             </div>
-                            <img
-                                alt=""
-                                src="/images/companion/hem202.png"
-                                className="mt-2 lg:w-[50px] sm:w-[35px]"
-                            />
+                            <div className="flex items-center gap-6">
+                                <img
+                                    alt=""
+                                    src="/images/companion/the-little-bean.png"
+                                    className="mt-2 lg:w-[90px] lg:h-[35px] sm:w-[75px]"
+                                />
+                                <img
+                                    alt=""
+                                    src="/images/companion/hem202.png"
+                                    className="mt-2 lg:w-[50px] sm:w-[35px]"
+                                />
+                            </div>
                         </div>
                     </div>
                     <div className="lg:rounded-[50px] lg:border-2 lg:border-black lg:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
