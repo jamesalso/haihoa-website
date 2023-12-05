@@ -133,7 +133,7 @@ export default function Navigator() {
                                                         __html: item?.title,
                                                     }}
                                                 />
-                                                <div class="divider div-transparent div-dot"></div>
+                                                <div class="divider div-transparent"></div>
                                                 <div
                                                     className="mt-3 text-[#2954ad] text-left text-[10px] font-[SVN-Brice] px-5 min-h-[90px]"
                                                     dangerouslySetInnerHTML={{
@@ -143,8 +143,8 @@ export default function Navigator() {
                                                 <div className="flex justify-center">
                                                     <img
                                                         alt=""
-                                                        src="/images/slide/342786_arrow_right_icon.svg"
-                                                        className="!h-[40px] animate-fade-right animate-infinite animate-duration-[2000ms] animate-delay-[2000ms]"
+                                                        src="/images/slide/7808886_click_cursor_pointer_arrow_icon.svg"
+                                                        className="!h-[33px]"
                                                     />
                                                 </div>
                                             </div>
