@@ -63,7 +63,7 @@ const settings = {
     ],
 };
 
-export default function Menu() {
+export default function Navigator() {
     const [navigator, setNavigator] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -102,7 +102,7 @@ export default function Menu() {
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
         >
-            <div className="mx-auto max-w-screen-xl lg:py-[60px] sm:py-[60px] lg:px-[20px] sm:px-6">
+            <div className="mx-auto max-w-screen-xl lg:py-[60px] sm:pb-[40px] lg:px-[20px] sm:px-6">
                 <div className="sm:flex sm:justify-center">
                     <video
                         playsInline
