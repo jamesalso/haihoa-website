@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import HaihoaFirstDay from '@/assets/videos/haihoa_ngay_23_fix.mp4';
+import ReactPlayer from 'react-player';
 
 export default function Recap() {
     return (
@@ -8,19 +7,16 @@ export default function Recap() {
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
             id="companion"
         >
-            <div className="mx-auto lg:px-10 lg:py-[100px] sm:py-[60px]">
-                <div className="lg:rounded-[50px] lg:border-2 lg:border-black lg:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                    <video
-                        playsInline
-                        muted
-                        autoPlay
+            <div className="lg:px-8 sm:px-4 sm:py-10">
+                <div className="relative pt-[56.25%] lg:rounded-[4%] lg:border-2 lg:border-black lg:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                    <ReactPlayer
+                        url="https://vimeo.com/892309051"
                         controls
                         loop
-                        preload="auto"
-                        className="rounded-[50px]"
-                    >
-                        <source src={HaihoaFirstDay} type="video/mp4" />
-                    </video>
+                        className="react-player"
+                        width="100%"
+                        height="100%"
+                    />
                 </div>
             </div>
         </section>

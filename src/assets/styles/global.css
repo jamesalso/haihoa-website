@@ -62,3 +62,13 @@ html {
 hr.line {
     border-top: 3px dashed #ffffff;
 }
+
+.react-player {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.react-player iframe {
+    border-radius: 4% !important;
+}

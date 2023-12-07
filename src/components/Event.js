@@ -136,63 +136,6 @@ export default function Event() {
                                 </div>
                             </div>
                         </div>
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[550px] sm:!w-[400px] sm:min-h-[321px]">
-                            <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
-                                TRIỂN LÃM
-                            </div>
-                            <hr className="border-[#ee5b9f] lg:border-2 sm:border border-dashed mx-auto my-2" />
-                            <div className="sm:mt-4 mx-2 text-[#2954ad] text-left">
-                                <div className="font-[SVN-Brice-SemiBold] lg:text-[17px] sm:text-[15px]">
-                                    Bộ Truyện Tranh `haihoa-pleaser` có 1-0-2
-                                </div>
-                                <div className="font-[SVN-Brice] text-[16px]">
-                                    Dạo quanh và khám phá 8 câu chuyện đời thực
-                                    về hành vi làm hài lòng người khác của bé
-                                    haihoa-pleaser khi còn ở xứ sở Hài Hòa. Đây
-                                    là giai đoạn trước khi bé haihoa tạm rời xa
-                                    Xứ sở Hài Hòa và gặp chị Trâm để học những
-                                    điều mới lạ.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[550px] sm:!w-[400px] sm:min-h-[321px]">
-                            <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
-                                HOẠT ĐỘNG TRẢI NGHIỆM
-                                <br /> F.A.S.T Skill
-                            </div>
-                            <hr className="border-[#ee5b9f] lg:border-2 sm:border border-dashed mx-auto my-2" />
-                            <div className="sm:mt-4 mx-2 text-[#2954ad] text-left">
-                                <div className="font-[SVN-Brice] text-[16px]">
-                                    Tự tin, tôn trọng bản thân, và không sợ thể
-                                    hiện ý kiến cá nhân! Trải nghiệm các hoạt
-                                    động thiết kế dựa trên lý thuyết F.A.S.T để
-                                    rèn luyện kỹ năng giao tiếp hiệu quả. Đây
-                                    chính là cột mốc bé haihoa quay lại Hài Hòa
-                                    Land để chỉ cho dân cư tại Hài Hòa Land về
-                                    kiến thức FAST skill đã được học từ chị
-                                    Trâm.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[550px] sm:!w-[400px] sm:min-h-[321px]">
-                            <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
-                                WORKSHOP
-                            </div>
-                            <hr className="border-[#ee5b9f] lg:border-2 sm:border border-dashed mx-auto my-2" />
-                            <div className="sm:mt-4 mx-2 text-[#2954ad] text-left">
-                                <div className="font-[SVN-Brice-SemiBold] lg:text-[17px] sm:text-[16px]">
-                                    Tô Màu `bé haihoa` trên Túi Tote
-                                </div>
-                                <div className="font-[SVN-Brice] text-[16px]">
-                                    Chắc chắn bạn không muốn bỏ lỡ Magic Hour
-                                    với workshop tô màu `Bé Haihoa` lên túi
-                                    tote. Tự do sáng tạo và thể hiện bản thân,
-                                    đừng để ý đến ý kiến của người khác!
-                                </div>
-                            </div>
-                        </div>
                     </Slider>
                 </div>
 

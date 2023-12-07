@@ -17,6 +17,8 @@ import Comics from '@/components/Comics';
 import Navigator from '@/components/Navigator';
 import Poster from '@/components/Poster';
 import Event from '@/components/Event';
+import Recap from '@/components/Recap';
+import Activity from '@/components/Activity';
 
 export default function Home() {
     const [splashVisible, setSplashVisible] = useState(true);
@@ -64,6 +66,8 @@ export default function Home() {
                     <Comics />
                     <Poster />
                     <Event />
+                    <Activity />
+                    <Recap />
                     <Companion />
                     <Contact />
                 </main>
