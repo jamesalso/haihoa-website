@@ -99,11 +99,11 @@ export default function Activity() {
 
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[120px] sm:py-[45px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:pt-[280px] sm:pt-[50px]`}
             id="event"
         >
             <div className="lg:flex-col sm:flex sm:flex-col">
-                <div className="sm:mx-auto lg:flex lg:justify-center lg:mt-4 lg:pl-[20px]">
+                <div className="mx-auto lg:mt-4">
                     {/* <Slider
                         {...settings}
                         className="lg:pl-[20px] sm:text-center"
@@ -185,7 +185,7 @@ export default function Activity() {
                     <img
                         alt=""
                         src="/images/poster/Nuthantudo.png"
-                        className="lg:w-[250px] sm:w-[180px]"
+                        className="lg:w-[300px] sm:w-[180px]"
                     />
                 </div>
             </div>

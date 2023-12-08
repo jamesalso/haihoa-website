@@ -99,15 +99,12 @@ export default function Event() {
 
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[120px] sm:py-[45px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:pt-[280px] sm:pt-[30px]`}
             id="event"
         >
             <div className="lg:flex-col sm:flex sm:flex-col">
-                <div className="lg:mx-auto lg:mt-4 sm:mt-6 max-w-screen-xl lg:pl-[20px] lg:px-[35px]">
-                    <Slider
-                        {...settings}
-                        className="lg:pl-[20px] sm:text-center"
-                    >
+                <div className="mx-auto lg:mt-4 sm:mt-6 max-w-screen-xl">
+                    <Slider {...settings} className="sm:text-center">
                         <div className="lg:p-4 sm:p-2 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[900px] sm:!w-[400px]">
                             <div className="text-[#2954ad] text-center lg:text-[24px] sm:text-[20px] font-[SVN-Brice-SemiBold]">
                                 EVENT: HÀI HÒA LAND
@@ -154,7 +151,7 @@ export default function Event() {
                     <img
                         alt=""
                         src="/images/poster/Nuthantudo.png"
-                        className="lg:w-[250px] sm:w-[180px]"
+                        className="lg:w-[300px] sm:w-[180px]"
                     />
                 </div>
             </div>
