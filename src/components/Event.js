@@ -99,7 +99,7 @@ export default function Event() {
 
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat sm:py-[45px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[120px] sm:py-[45px]`}
             id="event"
         >
             <div className="lg:flex-col sm:flex sm:flex-col">

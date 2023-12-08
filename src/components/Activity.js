@@ -99,7 +99,7 @@ export default function Activity() {
 
     return (
         <section
-            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat sm:py-[45px]`}
+            className={`bg-[url(/images/introduce/haihoa-background-white.png)] bg-cover bg-center bg-no-repeat lg:py-[120px] sm:py-[45px]`}
             id="event"
         >
             <div className="lg:flex-col sm:flex sm:flex-col">
@@ -151,7 +151,7 @@ export default function Activity() {
                         <hr className="border-[#ee5b9f] bg-[#ee5b9f] border-2 mx-auto lg:w-[20px] sm:w-[3px] lg:h-[5px] sm:h-[18px] my-auto" />
                         <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[450px] sm:!w-[400px] sm:min-h-[321px]">
                             <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
-                                WORKSHOP
+                                WORKSHOP TÔ TA
                             </div>
                             <hr className="border-[#ee5b9f] lg:border-2 sm:border border-dashed mx-auto my-2" />
                             <div className="sm:mt-4 mx-2 text-[#2954ad] text-left">

@@ -216,11 +216,11 @@ export default function Navigator() {
                                 <div className="lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
                                     <div>Đơn vị đồng tổ chức</div>
                                 </div>
-                                <div className="flex items-center">
+                                <div className="mt-3">
                                     <img
                                         alt=""
                                         src="/images/companion/the-little-bean.png"
-                                        className="mt-2 lg:w-[90px] lg:h-[35px] sm:w-[75px]"
+                                        className="mt-2 lg:w-[120px] lg:h-[40px] sm:w-[75px]"
                                     />
                                 </div>
                             </div>
@@ -232,6 +232,16 @@ export default function Navigator() {
                                     <img
                                         alt=""
                                         src="/images/companion/hem202.png"
+                                        className="mt-2 lg:w-[50px] sm:w-[35px]"
+                                    />
+                                    <img
+                                        alt=""
+                                        src="/images/companion/HOA-TUOI-DUY-DUY.png"
+                                        className="mt-2 lg:w-[50px] sm:w-[35px]"
+                                    />
+                                    <img
+                                        alt=""
+                                        src="/images/companion/XOP-HOANG-NGHIA.png"
                                         className="mt-2 lg:w-[50px] sm:w-[35px]"
                                     />
                                 </div>
