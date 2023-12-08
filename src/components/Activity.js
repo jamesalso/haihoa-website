@@ -103,12 +103,13 @@ export default function Activity() {
             id="event"
         >
             <div className="lg:flex-col sm:flex sm:flex-col">
-                <div className="mx-auto lg:mt-4 sm:mt-6 max-w-screen-xl lg:pl-[20px]">
-                    <Slider
+                <div className="sm:mx-auto lg:flex lg:justify-center lg:mt-4 lg:pl-[20px]">
+                    {/* <Slider
                         {...settings}
                         className="lg:pl-[20px] sm:text-center"
-                    >
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[480px] sm:!w-[400px] sm:min-h-[321px]">
+                    > */}
+                    <div className="lg:flex lg:items-center">
+                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[450px] sm:!w-[400px] sm:min-h-[321px]">
                             <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
                                 TRIỂN LÃM
                             </div>
@@ -117,7 +118,7 @@ export default function Activity() {
                                 <div className="font-[SVN-Brice-SemiBold] lg:text-[17px] sm:text-[15px]">
                                     Bộ Truyện Tranh `haihoa-pleaser` có 1-0-2
                                 </div>
-                                <div className="font-[SVN-Brice] text-[16px]">
+                                <div className="font-[SVN-Brice] text-[15px]">
                                     Dạo quanh và khám phá 8 câu chuyện đời thực
                                     về hành vi làm hài lòng người khác của bé
                                     haihoa-pleaser khi còn ở xứ sở Hài Hòa. Đây
@@ -127,15 +128,15 @@ export default function Activity() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[480px] sm:!w-[400px] sm:min-h-[321px]">
+                        <hr className="border-[#ee5b9f] bg-[#ee5b9f] border-2 mx-auto lg:w-[20px] sm:w-[3px] lg:h-[5px] sm:h-[18px] my-auto" />
+                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[450px] sm:!w-[400px] sm:min-h-[321px]">
                             <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
                                 HOẠT ĐỘNG TRẢI NGHIỆM
                                 <br /> F.A.S.T Skill
                             </div>
                             <hr className="border-[#ee5b9f] lg:border-2 sm:border border-dashed mx-auto my-2" />
                             <div className="sm:mt-4 mx-2 text-[#2954ad] text-left">
-                                <div className="font-[SVN-Brice] text-[16px]">
+                                <div className="font-[SVN-Brice] lg:text-[15px] sm:text-[14px]">
                                     Tự tin, tôn trọng bản thân, và không sợ thể
                                     hiện ý kiến cá nhân! Trải nghiệm các hoạt
                                     động thiết kế dựa trên lý thuyết F.A.S.T để
@@ -147,8 +148,8 @@ export default function Activity() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[480px] sm:!w-[400px] sm:min-h-[321px]">
+                        <hr className="border-[#ee5b9f] bg-[#ee5b9f] border-2 mx-auto lg:w-[20px] sm:w-[3px] lg:h-[5px] sm:h-[18px] my-auto" />
+                        <div className="px-2 py-4 border-[6px] border-[#ee5b9f] rounded-[35px] lg:!w-[450px] sm:!w-[400px] sm:min-h-[321px]">
                             <div className="text-[#2954ad] text-center text-[22px] font-[SVN-Brice-SemiBold] min-h-[67px]">
                                 WORKSHOP
                             </div>
@@ -157,7 +158,7 @@ export default function Activity() {
                                 <div className="font-[SVN-Brice-SemiBold] lg:text-[17px] sm:text-[16px]">
                                     Tô Màu `bé haihoa` trên Túi Tote
                                 </div>
-                                <div className="font-[SVN-Brice] text-[16px]">
+                                <div className="font-[SVN-Brice] lg:text-[15px] sm:text-[14px]">
                                     Chắc chắn bạn không muốn bỏ lỡ Magic Hour
                                     với workshop tô màu `Bé Haihoa` lên túi
                                     tote. Tự do sáng tạo và thể hiện bản thân,
@@ -165,10 +166,11 @@ export default function Activity() {
                                 </div>
                             </div>
                         </div>
-                    </Slider>
+                    </div>
+                    {/* </Slider> */}
                 </div>
 
-                <div className="mt-7 flex justify-center items-center gap-2">
+                {/* <div className="mt-7 flex justify-center items-center gap-2">
                     <img
                         alt=""
                         src="/images/slide/9165417_swipe_left_icon.svg"
@@ -177,7 +179,7 @@ export default function Activity() {
                     <div className="text-[#ee5b9f] text-[14px] font-[SVN-Brice] lg:hidden sm:block">
                         Swipe
                     </div>
-                </div>
+                </div> */}
 
                 <div className="mx-10 sm:mt-5 flex lg:justify-start sm:justify-center">
                     <img

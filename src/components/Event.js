@@ -139,7 +139,7 @@ export default function Event() {
                     </Slider>
                 </div>
 
-                <div className="mt-7 flex justify-center items-center gap-2">
+                {/* <div className="mt-7 flex justify-center items-center gap-2">
                     <img
                         alt=""
                         src="/images/slide/9165417_swipe_left_icon.svg"
@@ -148,7 +148,7 @@ export default function Event() {
                     <div className="text-[#ee5b9f] text-[14px] font-[SVN-Brice] lg:hidden sm:block">
                         Swipe
                     </div>
-                </div>
+                </div> */}
 
                 <div className="mx-10 sm:mt-5 flex lg:justify-start sm:justify-center">
                     <img

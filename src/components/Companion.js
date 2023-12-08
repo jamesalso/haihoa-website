@@ -1,62 +1,178 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
 
 export default function Companion() {
     return (
         <section
-            className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
+            className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat lg:py-[200px] sm:py-[45px]`}
             id="companion"
         >
-            <div className="mx-auto max-w-screen-xl lg:py-[200px] sm:py-[60px] lg:px-[20px] sm:px-6">
-                <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center lg:gap-14 px-18">
-                    <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
-                        <img
-                            alt=""
-                            src="/images/companion/the-little-bean.png"
-                            className="lg:w-[280px] sm:w-[180px]"
-                        />
-                    </div>
-
-                    <div>
-                        <div className="font-[SVN-Brice-SemiBold] lg:leading-[40px]">
-                            <div className="text-[#ffdd04] lg:text-[30px] sm:text-[26px] lg:text-left sm:text-center">
-                                ĐƠN VỊ ĐỒNG HÀNH!
-                            </div>
-                            <div className="sm:mt-6 text-[#ee5b9f] lg:text-[28px] sm:text-[22px] lg:leading-[60px] lg:pr-0 sm:pr-[60px]">
-                                The Little Bean Coffee
-                            </div>
+            <div className="flex items-center sm:justify-center">
+                <div>
+                    <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center px-18">
+                        <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                            <img
+                                alt=""
+                                src="/images/companion/the-little-bean.png"
+                                className="w-[180px]"
+                            />
                         </div>
 
-                        <div className="mt-3 lg:text-[20px] sm:text-[18px] font-[CormorantGaramond] text-[#ffff]">
-                            Nơi bạn có thể là chính mình. <br />
-                            Bean có Cà phê ngon - Trà đặc sản. Đặc biệt hơn nữa
-                            là có rất nhiều cây.
+                        <div className="lg:text-left sm:text-center">
+                            <div className="font-[SVN-Brice-SemiBold] sm:leading-10">
+                                <div className="text-[#ffdd04] lg:text-[20px] sm:text-[24px] sm:mb-4">
+                                    ĐƠN VỊ ĐỒNG TỔ CHỨC
+                                </div>
+                                <div className="text-[#ee5b9f] text-[22px]">
+                                    The Little Bean Coffee
+                                </div>
+                            </div>
+
+                            <div className="lg:text-[17px] sm:text-[19px] font-[CormorantGaramond] text-[#ffff]">
+                                Nơi bạn có thể là chính mình. <br />
+                                Bean có Cà phê ngon - Trà đặc sản. <br />
+                                Đặc biệt hơn nữa là có rất nhiều cây.
+                            </div>
+                        </div>
+                    </div>
+                    <hr className="mt-10 lg:hidden sm:block" />
+                    <div>
+                        <div className="lg:mt-5 sm:mt-8 lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end px-18">
+                            <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                                <img
+                                    alt=""
+                                    src="/images/companion/hem202.png"
+                                    className="lg:w-[150px] sm:w-[120px]"
+                                />
+                            </div>
+
+                            <div className="lg:text-left sm:text-center">
+                                <div className="font-[SVN-Brice-SemiBold] sm:leading-10">
+                                    <div className="text-[#ffdd04] lg:text-[20px] sm:text-[24px] sm:mb-4">
+                                        ĐƠN VỊ ĐỒNG HÀNH!
+                                    </div>
+                                    <div className="text-[#ee5b9f] text-[22px]">
+                                        Phòng tư vấn tâm lý
+                                    </div>
+                                </div>
+
+                                <div className="lg:text-[17px] sm:text-[19px] font-[CormorantGaramond] text-[#ffff]">
+                                    Hẻm 202 - Trang kết nối hỗ trợ tư vấn tâm lý
+                                    dành cho <br />
+                                    sinh viên Trường Đại Học FPT Hồ Chí Minh.
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lg:hidden">
+                            <div className="lg:mt-5 sm:mt-8 lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end px-18">
+                                <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                                    <img
+                                        alt=""
+                                        src="/images/companion/hem202.png"
+                                        className="lg:w-[150px] sm:w-[120px]"
+                                    />
+                                </div>
+
+                                <div className="lg:text-left sm:text-center">
+                                    <div className="font-[SVN-Brice-SemiBold] sm:leading-10">
+                                        <div className="sm:hidden text-[#ffdd04] lg:text-[20px] sm:text-[22px]">
+                                            ĐƠN VỊ ĐỒNG HÀNH!
+                                        </div>
+                                        <div className="text-[#ee5b9f] text-[22px]">
+                                            Phòng tư vấn tâm lý
+                                        </div>
+                                    </div>
+
+                                    <div className="lg:text-[17px] sm:text-[19px] font-[CormorantGaramond] text-[#ffff]">
+                                        Hẻm 202 - Trang kết nối hỗ trợ tư vấn
+                                        tâm lý dành cho <br />
+                                        sinh viên Trường Đại Học FPT Hồ Chí
+                                        Minh.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="lg:mt-5 sm:mt-8 lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end px-18">
+                                <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                                    <img
+                                        alt=""
+                                        src="/images/companion/hem202.png"
+                                        className="lg:w-[150px] sm:w-[120px]"
+                                    />
+                                </div>
+
+                                <div className="lg:text-left sm:text-center">
+                                    <div className="font-[SVN-Brice-SemiBold] sm:leading-10">
+                                        <div className="sm:hidden text-[#ffdd04] lg:text-[20px] sm:text-[22px]">
+                                            ĐƠN VỊ ĐỒNG HÀNH!
+                                        </div>
+                                        <div className="text-[#ee5b9f] text-[22px]">
+                                            Phòng tư vấn tâm lý
+                                        </div>
+                                    </div>
+
+                                    <div className="lg:text-[17px] sm:text-[19px] font-[CormorantGaramond] text-[#ffff]">
+                                        Hẻm 202 - Trang kết nối hỗ trợ tư vấn
+                                        tâm lý dành cho <br />
+                                        sinh viên Trường Đại Học FPT Hồ Chí
+                                        Minh.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <hr className="mt-10 lg:hidden sm:block" />
-                <div className="lg:mt-5 sm:mt-8 lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end lg:gap-14 px-18">
-                    <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
-                        <img
-                            alt=""
-                            src="/images/companion/hem202.png"
-                            className="lg:w-[230px] sm:w-[150px]"
-                        />
-                    </div>
-
-                    <div>
-                        <div className="font-[SVN-Brice-SemiBold] lg:leading-[40px]">
-                            <div className="lg:block sm:hidden text-[#ffdd04] lg:text-[30px] sm:text-[20px] lg:text-left">
-                                ĐƠN VỊ ĐỒNG HÀNH!
-                            </div>
-                            <div className="text-[#ee5b9f] lg:text-[28px] sm:text-[22px] lg:leading-[60px] lg:pr-0 sm:pr-[60px]">
-                                Phòng tư vấn tâm lý
-                            </div>
+                <div className="lg:block sm:hidden">
+                    <div className="lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-center px-18">
+                        <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                            <img
+                                alt=""
+                                src="/images/companion/the-little-bean.png"
+                                className="w-[180px]"
+                            />
                         </div>
 
-                        <div className="mt-3 lg:text-[20px] sm:text-[18px] font-[CormorantGaramond] text-[#ffff]">
-                            Hẻm 202 - Trang kết nối hỗ trợ tư vấn tâm lý dành{' '}
-                            cho sinh viên Trường Đại Học FPT Hồ Chí Minh.
+                        <div>
+                            <div className="font-[SVN-Brice-SemiBold]">
+                                <div className="text-[#ffdd04] text-[20px] lg:text-left sm:text-center">
+                                    ĐƠN VỊ ĐỒNG TỔ CHỨC
+                                </div>
+                                <div className="text-[#ee5b9f] text-[22px] lg:pr-0 sm:pr-[60px]">
+                                    The Little Bean Coffee
+                                </div>
+                            </div>
+
+                            <div className="text-[17px] font-[CormorantGaramond] text-[#ffff]">
+                                Nơi bạn có thể là chính mình. <br />
+                                Bean có Cà phê ngon - Trà đặc sản. <br />
+                                Đặc biệt hơn nữa là có rất nhiều cây.
+                            </div>
+                        </div>
+                    </div>
+                    <hr className="mt-10 lg:hidden sm:block" />
+                    <div className="lg:mt-5 sm:mt-8 lg:grid lg:grid-cols-2 sm:flex sm:flex-col-reverse justify-center items-end px-18">
+                        <div className="sm:mt-6 lg:flex lg:justify-center sm:mx-auto">
+                            <img
+                                alt=""
+                                src="/images/companion/hem202.png"
+                                className="w-[150px]"
+                            />
+                        </div>
+
+                        <div>
+                            <div className="font-[SVN-Brice-SemiBold]">
+                                <div className="lg:block sm:hidden text-[#ffdd04] text-[20px] lg:text-left">
+                                    ĐƠN VỊ ĐỒNG HÀNH!
+                                </div>
+                                <div className="text-[#ee5b9f] text-[22px] lg:pr-0 sm:pr-[60px]">
+                                    Phòng tư vấn tâm lý
+                                </div>
+                            </div>
+
+                            <div className="text-[18px] font-[CormorantGaramond] text-[#ffff]">
+                                Hẻm 202 - Trang kết nối hỗ trợ tư vấn tâm lý
+                                dành cho <br />
+                                sinh viên Trường Đại Học FPT Hồ Chí Minh.
+                            </div>
                         </div>
                     </div>
                 </div>

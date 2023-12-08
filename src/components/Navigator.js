@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { useEffect, useState } from 'react';
-import React from 'react';
-import Slider from 'react-slick';
 import HaihoaVideo from '@/assets/videos/haihoa-video.mp4';
+import { useEffect, useState } from 'react';
+import Slider from 'react-slick';
 
 const NextArrow = (props) => {
     const { className, style, onClick } = props;
@@ -102,7 +101,7 @@ export default function Navigator() {
         <section
             className={`bg-[url(/images/banner/haihoa-background.png)] bg-cover bg-center bg-no-repeat`}
         >
-            <div className="mx-auto max-w-screen-xl lg:py-[60px] sm:pb-[40px] lg:px-[20px] sm:px-6">
+            <div className="mx-auto max-w-screen-xl lg:py-[60px] sm:py-[40px] lg:px-[20px] sm:px-6">
                 <div className="sm:flex sm:justify-center">
                     <video
                         playsInline
@@ -168,7 +167,7 @@ export default function Navigator() {
                 </div>
 
                 <div className="lg:mt-10 sm:mt-14 lg:mx-auto lg:flex lg:justify-between lg:items-end lg:gap-14 lg:px-12">
-                    <div className="flex sm:justify-between items-end lg:gap-16">
+                    <div className="lg:flex lg:items-end lg:gap-16">
                         <div>
                             <div className="mt-8 lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
                                 <div>EMAIL: haihoa.tuoisac@gmail.com</div>
@@ -212,21 +211,30 @@ export default function Navigator() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col items-center">
-                            <div className="mt-8 lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
-                                <div>Đơn vị đồng hành</div>
+                        <div className="sm:mt-8 sm:flex sm:justify-between lg:gap-10">
+                            <div className="lg:flex lg:flex-col lg:items-center">
+                                <div className="lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
+                                    <div>Đơn vị đồng tổ chức</div>
+                                </div>
+                                <div className="flex items-center">
+                                    <img
+                                        alt=""
+                                        src="/images/companion/the-little-bean.png"
+                                        className="mt-2 lg:w-[90px] lg:h-[35px] sm:w-[75px]"
+                                    />
+                                </div>
                             </div>
-                            <div className="flex items-center gap-6">
-                                <img
-                                    alt=""
-                                    src="/images/companion/the-little-bean.png"
-                                    className="mt-2 lg:w-[90px] lg:h-[35px] sm:w-[75px]"
-                                />
-                                <img
-                                    alt=""
-                                    src="/images/companion/hem202.png"
-                                    className="mt-2 lg:w-[50px] sm:w-[35px]"
-                                />
+                            <div className="lg:flex lg:flex-col lg:items-center">
+                                <div className="lg:text-[12px] sm:text-[10px] font-[SVN-Brice] text-[#ffdd04] leading-5">
+                                    <div>Đơn vị đồng hành</div>
+                                </div>
+                                <div className="flex items-center gap-6">
+                                    <img
+                                        alt=""
+                                        src="/images/companion/hem202.png"
+                                        className="mt-2 lg:w-[50px] sm:w-[35px]"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
